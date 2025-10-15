@@ -1,0 +1,23 @@
+
+
+
+body{
+    
+    background-color: rgb(44, 151, 142);
+}
+
+h1{
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+     font-size: 60px ;
+     margin-top: 10%;
+}
+button{
+    padding: 1%;
+    background-color: white;
+    margin-left: 48%;
+    margin-top: 10%;
+    background-color: brown;
+}
+
