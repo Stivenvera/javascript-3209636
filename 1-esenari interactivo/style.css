@@ -1,23 +1,117 @@
-
-
-
-body{
-    
-    background-color: rgb(44, 151, 142);
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-h1{
+
+section{
+    align-items: center;
+    display: flex;
     text-align: center;
-    margin-top: 10%;
-    color: white;
-     font-size: 60px ;
-     margin-top: 10%;
-}
-button{
-    padding: 1%;
-    background-color: white;
-    margin-left: 48%;
-    margin-top: 10%;
-    background-color: brown;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
 }
 
+.fondo{
+    position: relative;
+    width: 750px;
+    height: 500px;
+    background-image: url(./img/sddefault.jpg);
+    background-size: cover;
+    border: 2px solid black;
+}
+
+.diamante1{
+    background-image:  url(./img/diamante.png);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:100px;
+    left: 100px;
+
+}
+.diamante1 img{
+    width: 50px;
+    height: 50px;
+
+}
+.diamante2{
+    background-image:  url(./img/diamante.png);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:400px;
+    left: 200px;
+
+}
+.diamante3{
+    background-image:  url(./img/diamante.png);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:300px;
+    left: 680px;
+
+}
+.diamante4{
+    background-image:  url(./img/diamante.png);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:60px;
+    left: 300px;
+
+}
+.diamante5{
+    background-image:  url(./img/diamante.png);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+   
+   
+
+}
+.diamante6{
+    background-image:  url(./img/diamante.png);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:300px;
+    left: 400px;
+
+}
+.bloque1{
+    width: 70px;
+    height: 70px;
+    background-image: url(img/bloque.png);
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    background-repeat: no-repeat;
+}
+.bloque2{
+    width: 150px;
+    height: 150px;
+    background-image: url(img/bloque.png);
+    position: absolute;
+    top: 230px;
+    left: 500px;
+    background-repeat: no-repeat;
+}
+.puntaje{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    font-size: 10px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    display: flex;
+    align-items: center;
+}
