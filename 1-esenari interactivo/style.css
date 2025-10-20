@@ -95,8 +95,8 @@ section{
     height: 70px;
     background-image: url(img/bloque.png);
     position: absolute;
-    top: 300px;
-    left: 30px;
+    top: 60%;
+    left: 60%;
     background-repeat: no-repeat;
 }
 .bloque2{
@@ -104,8 +104,8 @@ section{
     height: 150px;
     background-image: url(img/bloque.png);
     position: absolute;
-    top: 230px;
-    left: 500px;
+    top: 46%;
+    left: 65%;
     background-repeat: no-repeat;
 }
 .puntaje{
@@ -121,3 +121,46 @@ section{
     align-items: center;
 
 }
+/* ANIMACION DIAMANTE */
+
+.saltar{
+    animation: saltar 0.6s ease forwards;
+}
+
+@keyframes saltar{
+    0%{
+        transform: translatey(0);opacity: 1;
+    }
+    30%{
+        transform: translatey(-60px);
+    }
+    100%{
+    transform: translatey(0);opacity: 0;
+    }
+}
+
+/* ANIMACION BLOQUE */
+.bloque2{
+    animation: moverBloque2 4s ease infinite alternate;
+}
+
+@keyframes moverBloque2{
+    0%{
+        left: 46%;
+    }
+    100%{
+        left: 3%;
+    }
+}
+ .bloque1{
+    animation: moverBloque1 5s ease infinite alternate;
+}
+
+@keyframes moverBloque1{
+    0%{
+        left: 60%;
+    }
+    100%{
+        left: 2%;
+    }
+} 
