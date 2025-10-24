@@ -42,7 +42,7 @@ moneda.forEach(item=>
 
 
     item.addEventListener("click", () =>{
-        item.classList.add("saltar")
+        item.classList.add("crecer")
         nm++
 contador2.textContent = nm
     })
@@ -60,26 +60,26 @@ item.style.display="none"
 
 
 const fantasma = document.querySelectorAll(".fnm");
-const contador3 = document.querySelector(".contador");
+const contador3 = document.querySelector(".contador3");
 let numero2= 0
 
-console.log(diamantes)
-console.log(contador)
+console.log(fantasma)
+console.log(contador3)
 
 // crear la funciones
-diamantes.forEach(item=>
+fantasma.forEach(item=>
 { /* console.log("elemento:" , item)
     item.style.filter = "grayscale(1)" */
 
 
     item.addEventListener("click", () =>{
-        item.classList.add("saltar")
-        numero++
-contador.textContent = numero
+        item.classList.add("disminuir")
+        numero2++
+contador3.textContent = numero2
     })
 
 
-item.addEventListener("animationed" ,() =>{
+item.addEventListener(".fnm" ,() =>{
 item.style.display="none"
 }, {once:true})
 })
