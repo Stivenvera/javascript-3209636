@@ -6,14 +6,7 @@
 
 
 .juego1{
-    align-items: center;
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
-    position: relative;
-    min-width: 100%;
+    
 }
 
 .fondo1{
@@ -512,12 +505,59 @@
 
 
 
+.carrusel{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+.miniaturas{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    
+}
+
+.flecha1{
+  
+    margin-right: 60px;  
+
+}
+.flecha2{
+margin-left: 40px;
+}
+.escena{
+    display: none;
+}
+
+.circulo{
+    
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
+.circulo1{
+    background-image: url(img/sddefault.jpg);
+}
 
+.circulo2{
+    background-image: url(img/desktop-wallpaper-mario-backgrounds-mario-background-thumbnail.jpg);
+    
+}
+.circulo3{
+    background-image: url(img/pacman.jpg);
+    
+  
+}
 
-
-
-
-
-
+.activa{ display: block;}
+.escena{display: none;}
