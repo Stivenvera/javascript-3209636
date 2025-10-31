@@ -83,3 +83,26 @@ item.addEventListener(".fnm" ,() =>{
 item.style.display="none"
 }, {once:true})
 })
+
+/*carrusel */
+
+//1.variables
+const escena = document.querySelectorAll(".escena")
+const btnAnterior= document.querySelector (".flecha1")
+const btnsiguiente= document.querySelector(".flecha2")
+const miniaturas = document.querySelectorAll(".miniaturas")
+
+console.log(escena)
+console.log(btnAnterior)
+console.log(btnsiguiente)
+console.log(miniaturas)
+//2. funciones
+function mostrarEscena(i){
+  for (let j = 0; j < escena.length; j++) {
+    escena[j].classList.remove('activa')
+
+  } 
+   escena[i].classList.add('activa')
+   
+}
+mostrarEscena (0)
