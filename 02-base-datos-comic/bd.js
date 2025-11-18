@@ -3,27 +3,64 @@ let comic={
   "sinopsis": "arquologo viajero del timepo",
   "year": 2025,
   "autores": ["stiven","hillary","kate","andres"],
-  "persoanjes": ["adrian","monje","socrates","platon","aristoteles","ninoc","senador"],
+  "persoanjes": [
+
+    {"nombre": "adrian", 
+  "imagen": "./imagenes/adrian"
+
+},
+ {"nombre": "monje", 
+  "imagen": "./imagenes/monje"
+
+},
+ {"nombre": "ninov", 
+  "imagen": "./imagenes/ninov"
+
+},
+ {"nombre": "platon", 
+  "imagen": "./imagenes/platon"
+
+},
+ {"nombre": "aristoteles", 
+  "imagen": "./imagenes/aristoteles"
+
+},
+ {"nombre": "socrates", 
+  "imagen": "./imagenes/socrates"
+
+},
+ {"nombre": "senador", 
+  "imagen": "./imagnes/senador"
+
+},
+
+
+
+
+
+
+
+  ],
   "genero": "ficiion",
   "portada": "./imagenes/portada.jpg",
     "escenas": [
     {
         "id":1,
-      "nombre": "Molecule Man",
+      "nombre": "escena1",
       "personajes": "Dan Jukes",
       "image": ["Radiation resistance", "Turning tiny", "Radiation blast"]
     },
     
     {
          "id":2,
-      "nombre": "Molecule Man",
+      "nombre": "escena2",
       "personajes": "Dan Jukes",
       "image": ["Radiation resistance", "Turning tiny", "Radiation blast"]
       
     },
     {
         "id":3,
-      "nombre": "Molecule Man",
+      "nombre": "escena3",
       "personajes": "Dan Jukes",
       "image": ["Radiation resistance", "Turning tiny", "Radiation blast"]
     },
@@ -31,7 +68,7 @@ let comic={
 
      {
         "id":4,
-      "nombre": "Molecule Man",
+      "nombre": "escena4",
       "personajes": "Dan Jukes",
       "image": ["Radiation resistance", "Turning tiny", "Radiation blast"]
     },
@@ -39,7 +76,7 @@ let comic={
 
      {
         "id":5,
-      "nombre": "Molecule Man",
+      "nombre": "escena5",
       "personajes": "Dan Jukes",
       "image": ["Radiation resistance", "Turning tiny", "Radiation blast"]
     },
@@ -47,7 +84,7 @@ let comic={
 
      {
         "id":6,
-      "nombre": "Molecule Man",
+      "nombre": "escena6",
       "personajes": "Dan Jukes",
       "image": ["Radiation resistance", "Turning tiny", "Radiation blast"]
     },
@@ -57,7 +94,7 @@ let comic={
 
      {
         "id":7,
-      "nombre": "Molecule Man",
+      "nombre": "escena7",
       "personajes": "Dan Jukes",
       "image": ["Radiation resistance", "Turning tiny", "Radiation blast"]
     },
@@ -65,7 +102,7 @@ let comic={
 
      {
         "id":8,
-      "nombre": "Molecule Man",
+      "nombre": "escena8",
       "personajes": "Dan Jukes",
       "image": ["Radiation resistance", "Turning tiny", "Radiation blast"]
     },
@@ -75,21 +112,6 @@ let comic={
 
 
 
-     {
-        "id":1,
-      "nombre": "Molecule Man",
-      "personajes": "Dan Jukes",
-      "image": ["Radiation resistance", "Turning tiny", "Radiation blast"]
-    },
-
-
-
-
-     {
-        "id":1,
-      "nombre": "Molecule Man",
-      "personajes": "Dan Jukes",
-      "image": ["Radiation resistance", "Turning tiny", "Radiation blast"]
-    },
+  
   ]
 }
