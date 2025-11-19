@@ -1,5 +1,5 @@
 const infocomic=document.querySelector(".hero")
-const listaCapitulos=document.querySelector(".listacapitulos")
+const listaCapitulos=document.querySelector(".capitulos-container")
 
 console.log(listaCapitulos)
 console.log(infocomic)
@@ -18,4 +18,16 @@ infocomic.innerHTML =`
 `
 // aqui vamos a mostrar nombre de capitulos
 
-console.log(comic.escenas)
+comic.escenas.forEach(escenas=>{
+    const micard = document.createElement("div")
+    micard.classList.add("cap")
+    micard.innerHTML= `
+        <img src"${escenas.image}"
+        <h3>${escenas.nombre}</h3>
+        `
+    
+
+
+    listaCapitulos.appendChild(micard)
+    console.log(escenas.nombre)
+})
