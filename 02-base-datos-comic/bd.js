@@ -48,21 +48,21 @@ let comic={
         "id":1,
       "nombre": "escena1",
       "personajes": "Dan Jukes",
-      "image": ["Radiation resistance", "Turning tiny", "Radiation blast"]
+      "image": ["marvel-captain-america-png-image-purepng-transparent-30.png "]
     },
     
     {
          "id":2,
       "nombre": "escena2",
       "personajes": "Dan Jukes",
-      "image": ["Radiation resistance", "Turning tiny", "Radiation blast"]
+      "image": ["marvel-captain-america-png-image-purepng-transparent-30.png"]
       
     },
     {
         "id":3,
       "nombre": "escena3",
       "personajes": "Dan Jukes",
-      "image": ["Radiation resistance", "Turning tiny", "Radiation blast"]
+      "image": ["imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"]
     },
 
 
@@ -70,7 +70,7 @@ let comic={
         "id":4,
       "nombre": "escena4",
       "personajes": "Dan Jukes",
-      "image": ["Radiation resistance", "Turning tiny", "Radiation blast"]
+      "image": ["imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"]
     },
 
 
@@ -78,7 +78,7 @@ let comic={
         "id":5,
       "nombre": "escena5",
       "personajes": "Dan Jukes",
-      "image": ["Radiation resistance", "Turning tiny", "Radiation blast"]
+      "image": ["/marvel-captain-america-png-image-purepng-transparent-30.png"]
     },
 
 
@@ -86,7 +86,7 @@ let comic={
         "id":6,
       "nombre": "escena6",
       "personajes": "Dan Jukes",
-      "image": ["Radiation resistance", "Turning tiny", "Radiation blast"]
+      "image": ["marvel-captain-america-png-image-purepng-transparent-30.png"]
     },
 
 
@@ -96,7 +96,7 @@ let comic={
         "id":7,
       "nombre": "escena7",
       "personajes": "Dan Jukes",
-      "image": ["Radiation resistance", "Turning tiny", "Radiation blast"]
+      "image": ["marvel-captain-america-png-image-purepng-transparent-30.png"]
     },
 
 
@@ -104,7 +104,7 @@ let comic={
         "id":8,
       "nombre": "escena8",
       "personajes": "Dan Jukes",
-      "image": ["Radiation resistance", "Turning tiny", "Radiation blast"]
+      "image": ["marvel-captain-america-png-image-purepng-transparent-30.png"]
     },
 
 

@@ -19,7 +19,7 @@ comic.escenas.forEach(escenas=>{
     const micard = document.createElement("div")
     micard.classList.add("tarjeta-cap")
     micard.innerHTML= `
-    <img src"${escenas.image}"
+    <img src="${escenas.image}">
     <p>${escenas.nombre} <p>`
     console.log(escenas.nombre)
 

@@ -22,7 +22,7 @@ comic.escenas.forEach(escenas=>{
     const micard = document.createElement("div")
     micard.classList.add("cap")
     micard.innerHTML= `
-        <img src"${escenas.image}"
+        <img src"${escenas.image}">
         <h3>${escenas.nombre}</h3>
         `
     
