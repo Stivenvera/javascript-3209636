@@ -1,8 +1,10 @@
 const infocomic=document.querySelector(".hero")
 const listaCapitulos=document.querySelector(".capitulos-container")
+const contenedor=document.querySelector("card-container")
 
 console.log(listaCapitulos)
 console.log(infocomic)
+console.log(contenedor)
 
 infocomic.innerHTML =`
     
@@ -22,12 +24,27 @@ comic.escenas.forEach(escenas=>{
     const micard = document.createElement("div")
     micard.classList.add("cap")
     micard.innerHTML= `
-        <img src"${escenas.image}">
+        <img src="${escenas.image}">
         <h3>${escenas.nombre}</h3>
         `
     
 
 
     listaCapitulos.appendChild(micard)
+    console.log(escenas.nombre)
+})
+
+
+comic.escenas.forEach(escenas=>{
+    const micard = document.createElement("div")
+    micard.classList.add("card")
+    micard.innerHTML= `
+        <img src="${escenas.image}">
+        <h3>${escenas.personajes}</h3>
+        `
+    
+
+
+    contenedor.appendChild(micard)
     console.log(escenas.nombre)
 })
