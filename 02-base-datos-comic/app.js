@@ -21,7 +21,7 @@ comic.escenas.forEach(escenas=>{
     micard.innerHTML= `
     <img src="${escenas.image}">
     <p>${escenas.nombre} <p>`
-    console.log(escenas.nombre)
+    
 
 
     infocomic.appendChild(micard)

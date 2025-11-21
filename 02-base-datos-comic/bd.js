@@ -6,7 +6,7 @@ let comic={
   "persoanjes": [
 
     {"nombre": "adrian", 
-  "imagen": ""
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
 
 },
  {"nombre": "monje", 
@@ -18,74 +18,66 @@ let comic={
 
 },
  {"nombre": "platon", 
-  "imagen": "./imagenes/platon"
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
 
 },
  {"nombre": "aristoteles", 
-  "imagen": "./imagenes/aristoteles"
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
 
 },
  {"nombre": "socrates", 
-  "imagen": "./imagenes/socrates"
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
 
 },
  {"nombre": "senador", 
-  "imagen": "./imagnes/senador"
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
 
-},
-
-
-
-
-
-
-
-  ],
+}, ],
   "genero": "ficiion",
   "portada": "./imagenes/portada.jpg",
     "escenas": [
     {
         "id":1,
-      "nombre": "escena1",
+      "nombre": "Monumento",
       "personajes": "Adrian",
       "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
     },
     
     {
          "id":2,
-      "nombre": "escena2",
+      "nombre": " Paris",
       "personajes": "monje",
       "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
       
     },
     {
         "id":3,
-      "nombre": "escena3",
-      "personajes": "Dan Jukes",
+      "nombre": "Locas",
+      "personajes": "Platon",
       "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
     },
 
 
      {
         "id":4,
-      "nombre": "escena4",
-      "personajes": "Dan Jukes",
+      "nombre": "Memedellín",
+      "personajes": "ninov",
       "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
     },
 
 
      {
         "id":5,
-      "nombre": "escena5",
-      "personajes": "Dan Jukes",
+      "nombre": "Bello",
+      "personajes": "aristoteles",
       "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
     },
 
 
      {
         "id":6,
-      "nombre": "escena6",
-      "personajes": "Dan Jukes",
+      "nombre": "Grecia",
+      "personajes": "socrates",
       "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
     },
 
@@ -94,15 +86,15 @@ let comic={
 
      {
         "id":7,
-      "nombre": "escena7",
-      "personajes": "Dan Jukes",
+      "nombre": "Roma",
+      "personajes": "senador",
       "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
     },
 
 
      {
         "id":8,
-      "nombre": "escena8",
+      "nombre": "Coliseo",
       "personajes": "Dan Jukes",
       "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
     },

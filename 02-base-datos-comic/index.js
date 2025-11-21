@@ -1,6 +1,6 @@
 const infocomic=document.querySelector(".hero")
 const listaCapitulos=document.querySelector(".capitulos-container")
-const contenedor=document.querySelector("card-container")
+const contenedor=document.querySelector(".card-container")
 
 console.log(listaCapitulos)
 console.log(infocomic)
@@ -9,8 +9,8 @@ console.log(contenedor)
 infocomic.innerHTML =`
     
          <div class="hero-content">
-      <h1>${comic.nombrecomic}</h1>
-     <p>${comic.sinopsis}</p>
+            <h1>${comic.nombrecomic}</h1>
+              <p>${comic.sinopsis}</p>
       <div class="hero-buttons">
         <a href="#" class="btn primary">VER CAPITULOS</a>
         <a href="#" class="btn secondary">Ver Tráiler</a>
@@ -46,5 +46,5 @@ comic.escenas.forEach(escenas=>{
 
 
     contenedor.appendChild(micard)
-    console.log(escenas.nombre)
+    console.log(escenas.personajes)
 })
