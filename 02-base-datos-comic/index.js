@@ -7,6 +7,7 @@ console.log(infocomic)
 console.log(contenedor)
 
 infocomic.innerHTML =`
+
     
          <div class="hero-content">
             <h1>${comic.nombrecomic}</h1>
@@ -24,27 +25,29 @@ comic.escenas.forEach(escenas=>{
     const micard = document.createElement("div")
     micard.classList.add("cap")
     micard.innerHTML= `
+    <a href="escenas.html?id=${escenas.id}">
         <img src="${escenas.image}">
         <h3>${escenas.nombre}</h3>
-        `
+     </a>   `
     
 
 
     listaCapitulos.appendChild(micard)
-    console.log(escenas.nombre)
+    
 })
 
 
-comic.escenas.forEach(escenas=>{
+comic.personajes.forEach(personajes=>{
     const micard = document.createElement("div")
     micard.classList.add("card")
     micard.innerHTML= `
-        <img src="${escenas.image}">
-        <h3>${escenas.personajes}</h3>
-        `
+    <a href="personajes.html?id=${personajes.id}">
+        <img src="${personajes.image}">
+        <h3>${personajes.personajes}</h3>
+       </a> `
     
 
 
     contenedor.appendChild(micard)
-    console.log(escenas.personajes)
+   
 })

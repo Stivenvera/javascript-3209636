@@ -3,33 +3,40 @@ let comic={
   "sinopsis": "arquologo viajero del timepo",
   "year": 2025,
   "autores": ["stiven","hillary","kate","andres"],
-  "persoanjes": [
+  "personajes": [
 
-    {"nombre": "adrian", 
+    { "id":1,
+      "nombre": "adrian", 
       "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
 
 },
- {"nombre": "monje", 
+ { "id":2,
+  "nombre": "monje", 
       "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
 
 },
- {"nombre": "ninov", 
+ {"id":3,
+  "nombre": "ninov", 
       "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
 
 },
- {"nombre": "platon", 
+ { "id":4,
+  "nombre": "platon", 
       "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
 
 },
- {"nombre": "aristoteles", 
+ { "id":5,
+  "nombre": "aristoteles", 
       "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
 
 },
- {"nombre": "socrates", 
+ {"id":6,
+  "nombre": "socrates", 
       "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
 
 },
- {"nombre": "senador", 
+ {"id":7,
+  "nombre": "senador", 
       "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
 
 }, ],
