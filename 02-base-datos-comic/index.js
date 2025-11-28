@@ -1,3 +1,8 @@
+import { comic } from "./bd.js"
+
+
+
+
 const infocomic=document.querySelector(".hero")
 const listaCapitulos=document.querySelector(".capitulos-container")
 const contenedor=document.querySelector(".card-container")

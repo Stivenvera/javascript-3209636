@@ -1,4 +1,4 @@
-let comic={
+export let comic={
   "nombrecomic": "adrian y las cronicas del imperio",
   "sinopsis": "arquologo viajero del timepo",
   "year": 2025,
@@ -6,39 +6,39 @@ let comic={
   "personajes": [
 
     { "id":1,
-      "nombre": "adrian", 
-      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
-
+      "nombre": "Adrian", 
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png",
+      "descripcion":"arqueologo "
 },
  { "id":2,
-  "nombre": "monje", 
-      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
-
+  "nombre": "Monje", 
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png",
+  "descripcion":"arqueologo "
 },
  {"id":3,
-  "nombre": "ninov", 
-      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
-
+  "nombre": "Ninov", 
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png",
+  "descripcion":"arqueologo "
 },
  { "id":4,
-  "nombre": "platon", 
-      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
-
+  "nombre": "Platon", 
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png",
+  "descripcion":"arqueologo "
 },
  { "id":5,
-  "nombre": "aristoteles", 
-      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
-
+  "nombre": "Aristoteles", 
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png",
+  "descripcion":"arqueologo "
 },
  {"id":6,
-  "nombre": "socrates", 
-      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
-
+  "nombre": "Socrates", 
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png",
+  "descripcion":"arqueologo "
 },
  {"id":7,
-  "nombre": "senador", 
-      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
-
+  "nombre": "Senador", 
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png",
+  "descripcion":"arqueologo "
 }, ],
   "genero": "ficiion",
   "portada": "./imagenes/portada.jpg",
