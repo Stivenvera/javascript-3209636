@@ -48,7 +48,7 @@ comic.personajes.forEach(personajes=>{
     micard.innerHTML= `
     <a href="personajes.html?id=${personajes.id}">
         <img src="${personajes.image}">
-        <h3>${personajes.personajes}</h3>
+        <h3>${personajes.nombre}</h3>
        </a> `
     
 

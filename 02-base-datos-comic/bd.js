@@ -47,29 +47,40 @@ export let comic={
         "id":1,
       "nombre": "Monumento",
       "personajes": "Adrian",
-      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png",
+      "descripcion":"arqueologo ",
+      "video":"./imagenes/movie.mp4",
+       "ver": "mas capitulos",
     },
     
     {
          "id":2,
       "nombre": " Paris",
       "personajes": "monje",
-      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
-      
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png",
+      "descripcion":"arqueologo ",
+      "video":"./imagenes/movie.mp4",
+      "ver": "mas capitulos",
     },
     {
         "id":3,
       "nombre": "Locas",
       "personajes": "Platon",
-      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
-    },
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png",
+      "descripcion":"arqueologo ",
+      "video":"./imagenes/movie.mp4",
+     "ver": "mas capitulos",  
+      },
 
 
      {
         "id":4,
       "nombre": "Memedellín",
       "personajes": "ninov",
-      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png",
+      "descripcion":"arqueologo ",
+      "video":"./imagenes/movie.mp4",
+      "ver": "mas capitulos",
     },
 
 
@@ -77,7 +88,10 @@ export let comic={
         "id":5,
       "nombre": "Bello",
       "personajes": "aristoteles",
-      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png",
+      "descripcion":"arqueologo ",
+      "video":"./imagenes/movie.mp4",
+      "ver": "mas capitulos",
     },
 
 
@@ -85,7 +99,10 @@ export let comic={
         "id":6,
       "nombre": "Grecia",
       "personajes": "socrates",
-      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png",
+      "descripcion":"arqueologo ",
+      "video":"./imagenes/movie.mp4",
+      "ver": "mas capitulos",
     },
 
 
@@ -95,7 +112,10 @@ export let comic={
         "id":7,
       "nombre": "Roma",
       "personajes": "senador",
-      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png",
+      "descripcion":"arqueologo ",
+      "video":"./imagenes/movie.mp4",
+      "ver": "mas capitulos",
     },
 
 
@@ -103,7 +123,10 @@ export let comic={
         "id":8,
       "nombre": "Coliseo",
       "personajes": "Dan Jukes",
-      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png"
+      "image": "./imagenes/marvel-captain-america-png-image-purepng-transparent-30.png",
+      "descripcion":"arqueologo ",
+      "video":"./imagenes/movie.mp4",
+      "ver": "mas capitulos",
     },
 
 
