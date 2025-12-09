@@ -3,7 +3,7 @@
       font-family: Arial, sans-serif;
       background: #1a1a1a;
       color: white;
-      padding: 20px;
+    
     }
     body {
   opacity: 0;
@@ -14,6 +14,55 @@
   from { opacity: 0; }
   to { opacity: 1; }
 }
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 5%;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  backdrop-filter: blur(6px);
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.logo span {
+  color: #e50914;
+}
+
+.nav-links a{
+  color: #fff;
+  margin-left: 2rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links{
+  position: absolute;
+  left:1120px;
+
+}
+.nav-links a:hover {
+  color: #e50914;
+  
+}
+
+.nav-links .btn {
+  background: #e50914;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
 
     h1 {
       text-align: center;
