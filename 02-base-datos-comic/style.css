@@ -245,14 +245,27 @@ font-size: 2rem;
 
 /* Responsive */
 /*tablet*/
-@media (min-width: 851x) and (max-width:1024px) {
+@media (min-width: 768px) and (max-width:1023px) {
   .hero h1 {
     font-size: 1.rem;
   }
 
-  .card-container {
-    flex-direction: column;
-    align-items: center;
+ 
+  .hero{
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    padding: 0;
+    top: 0;
+    left: 0;
+  }
+  .hero-content{
+    width: 80%;
+  }
+  .hero h1{
+    width: 100%;
+    font-size: 30px;
+
   }
 
   
@@ -260,20 +273,72 @@ font-size: 2rem;
 
 
 /* celular*/
-@media screen and (max-width: 480px)
+@media  (max-width: 767px)
 {
 
+
+  .slide{
+    display: none;
+
+  }
+  .carrusel{
+    display: none;
+    position: fixed;
+  }
   .navbar{
     flex-direction: column;
     align-items: center;
+    padding: 0;
   }
+  
   nav{
     display: flex;
+    align-items: center;
   }
   .nav-links a{
     font-size: 12px;
+   
+  }
+  .hero{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    top: 0;
+    left: 0;
+  }
+  .hero-content{
+    width: 80%;
+  }
+  .hero h1{
+    width: 100%;
+    font-size: 30px;
+
+  }
+  .logo{
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  .card{
+    width: 350px;
+  }
+  .card img{
+    width: 50%;
+    max-height: 180px;
+
+  }
+  .cap{
+    width: 350px;
+  }
+  .cap img{
+     width: 50%;
+    max-height: 180px;
+  }
+  .nav-links{
+    padding-bottom: 10px;
   }
   
+ 
 }
 a{
   color: inherit;
