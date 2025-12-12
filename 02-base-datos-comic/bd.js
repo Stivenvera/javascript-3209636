@@ -1,6 +1,6 @@
 export let comic={
-  "nombrecomic": "adrian y las cronicas del imperio",
-  "sinopsis": "arquologo viajero del timepo",
+  "nombrecomic": "Adrian y las cronicas del imperio",
+  "sinopsis": "Arqueologo viajero del timepo",
   "year": 2025,
   "autores": ["stiven","hillary","kate","andres"],
   "personajes": [
@@ -13,32 +13,32 @@ export let comic={
  { "id":2,
   "nombre": "Monje", 
       "image": "./imagenes/monje.png",
-  "descripcion":"arqueologo "
+  "descripcion":"Arqueologo "
 },
  {"id":3,
   "nombre": "Ninov", 
       "image": "./imagenes/ninove.png",
-  "descripcion":"arqueologo "
+  "descripcion":"Arqueologo "
 },
  { "id":4,
   "nombre": "Platon", 
       "image": "./imagenes/platon.jpg",
-  "descripcion":"arqueologo "
+  "descripcion":"rqueologo "
 },
  { "id":5,
   "nombre": "Aristoteles", 
       "image": "./imagenes/aristoteles.jpg",
-  "descripcion":"arqueologo "
+  "descripcion":"Arqueologo "
 },
  {"id":6,
   "nombre": "Socrates", 
       "image": "./imagenes/Socrates.png",
-  "descripcion":"arqueologo "
+  "descripcion":"Arqueologo "
 },
  {"id":7,
   "nombre": "Senador", 
       "image": "./imagenes/senador.png",
-  "descripcion":"arqueologo "
+  "descripcion":"Arqueologo "
 }, ],
   "genero": "ficiion",
   "portada": "./imagenes/portada.jpg",
@@ -50,7 +50,7 @@ export let comic={
       "image": "./imagenes/atenas1.png",
       "descripcion":"arqueologo ",
       "video":"./imagenes/movie.mp4",
-       "ver": "mas capitulos",
+       "ver": "Mas capitulos",
     },
     
     {
@@ -60,7 +60,7 @@ export let comic={
       "image": "./imagenes/atenas1.png",
       "descripcion":"arqueologo ",
       "video":"./imagenes/movie.mp4",
-      "ver": "mas capitulos",
+      "ver": "Mas capitulos",
     },
     {
         "id":3,
@@ -69,7 +69,7 @@ export let comic={
       "image": "./imagenes/atenas2.png",
       "descripcion":"arqueologo ",
       "video":"./imagenes/movie.mp4",
-     "ver": "mas capitulos",  
+     "ver": "Mas capitulos",  
       },
 
 
@@ -80,7 +80,7 @@ export let comic={
       "image": "./imagenes/atenas1.png",
       "descripcion":"arqueologo ",
       "video":"./imagenes/movie.mp4",
-      "ver": "mas capitulos",
+      "ver": "Mas capitulos",
     },
 
 
@@ -91,7 +91,7 @@ export let comic={
       "image": "./imagenes/atenas1.png",
       "descripcion":"arqueologo ",
       "video":"./imagenes/movie.mp4",
-      "ver": "mas capitulos",
+      "ver": "Mas capitulos",
     },
 
 
@@ -102,7 +102,7 @@ export let comic={
       "image": "./imagenes/atenas2.png",
       "descripcion":"arqueologo ",
       "video":"./imagenes/movie.mp4",
-      "ver": "mas capitulos",
+      "ver": "Mas capitulos",
     },
 
 
